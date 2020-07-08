@@ -1,0 +1,12 @@
+Function palindrom(str: STRING,n:integer):Booleen
+VAR
+Begin
+if (str.length = 0) or (str.length = 1)
+then
+return (true)
+else if
+(str[0]=str[n-1])
+then
+return palindrom(str)=palindrom(sous-chaine(1,n-1));
+else return (false);
+end.
